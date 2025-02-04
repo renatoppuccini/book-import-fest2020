@@ -18,5 +18,5 @@ spec:
       - image: quay.io/jpacker/hugo-nginx:latest
         name: book-import
         ports:
-        - containerPort: 1313
+        - containerPort: 8080
           name: http-server
